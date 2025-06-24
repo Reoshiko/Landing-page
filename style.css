@@ -79,9 +79,38 @@ a {
     padding-left: 50px;
 }
 
-.informaition {
+.information {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.infor {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.imgs img {
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.imgs p {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 40px;
 }
