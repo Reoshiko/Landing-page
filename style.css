@@ -41,6 +41,23 @@ a {
     padding-left: 80px;
 }
 
+.text h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.text button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
 .text {
     color: #F9FAF8;
     font-size: 48px;
@@ -50,4 +67,14 @@ a {
 .text p {
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; 
+}
+
+.header img {
+    height: 250px;
+    width: 500px;
+    padding-right: 80px;
+    padding-left: 50px;
 }
