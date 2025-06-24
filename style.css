@@ -33,3 +33,21 @@ a {
     padding-left: 80px;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
