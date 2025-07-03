@@ -46,6 +46,7 @@ a {
 .text h1 {
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-right: 80px;
 }
 
 .text button {
@@ -144,4 +145,52 @@ a {
     font-size: 24px;
     text-align: right;
     margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.box {
+    background-color: #3B82F6;
+    color: #E5E7EB;
+    height: 120px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h2,p {
+    margin: 0;
+    margin-left: 80px;
+    padding: 0;
+}
+
+.right {
+    display: flex;
+    align-items: right;
+    margin-right: 90px;
+}
+
+.sign_up {
+    background-color: #3B82F6;
+    color: #E5E7EB;
+    border-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 20px;
 }
