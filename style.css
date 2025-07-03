@@ -7,13 +7,14 @@ body {
 }
 
 .links {
-    padding-right: 80px;
+    padding-right: 63px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
     margin: 12px;
+    display: inline-block;
 }
 
 .top {
@@ -22,8 +23,7 @@ a {
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    width: 100%;
-    padding: 16px;
+    padding: 0 25px;
     height: 50px;
 }
 
@@ -39,8 +39,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 80px;
     height: 500px;
+    padding: 0 100px;
 }
 
 .text h1 {
@@ -77,8 +77,6 @@ a {
 .header img {
     height: 250px;
     width: 500px;
-    padding-right: 80px;
-    padding-left: 50px;
 }
 
 .information {
@@ -116,4 +114,34 @@ a {
     text-align: center;
     margin-top: 10px;
     margin-right: 40px;
+}
+
+.content {
+    background-color: #F9FAF8;
+    height: 550px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.text2 {
+    width: 700px;
+}
+
+.text2 p {
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.text2 h3 {
+    color: black;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 20px;
 }
