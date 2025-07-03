@@ -194,3 +194,15 @@ a {
     border-radius: 3px;
     padding: 5px 20px;
 }
+
+.copyright {
+    background-color: #1F2937;
+    height: 70px;
+}
+
+.copyright p {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
