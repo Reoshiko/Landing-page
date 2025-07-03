@@ -1,1 +1,2 @@
-# Landing-page
+Project: Landing Page
+Odin-project's
